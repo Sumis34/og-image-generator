@@ -1,4 +1,5 @@
 import { withOGImage } from 'next-api-og-image';
+import Script from 'next/script';
 
 interface QueryParams {
   name: string;
@@ -36,7 +37,7 @@ export default withOGImage<'query', QueryParams>({
         <html>
           <head>
             <style dangerouslySetInnerHTML={{ __html: style }} />
-            <script src='https://cdn.tailwindcss.com'></script>
+            <Script src='https://cdn.tailwindcss.com'></Script>
             <script dangerouslySetInnerHTML={{ __html: script }} />
           </head>
           <body className='bg-background h-screen w-screen'>
@@ -85,7 +86,7 @@ export default withOGImage<'query', QueryParams>({
                   <svg
                     stroke='#cd412b'
                     fill='#cd412b'
-                    stroke-width='0'
+                    strokeWidth='0'
                     viewBox='0 0 20 20'
                     height='1em'
                     width='1em'
