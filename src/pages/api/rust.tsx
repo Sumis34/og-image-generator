@@ -47,7 +47,7 @@ function Template({ name, steamid, avatar, local }: QueryParams) {
     <html>
       <head>
         <style dangerouslySetInnerHTML={{ __html: style }} />
-        <Script src='https://cdn.tailwindcss.com'></Script>
+        <script src='https://cdn.tailwindcss.com'></script>
         <script dangerouslySetInnerHTML={{ __html: script }} />
       </head>
       <body className='bg-background h-screen w-screen'>

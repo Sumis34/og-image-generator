@@ -16,6 +16,7 @@ module.exports = {
     'no-unused-vars': 'off',
     'react/display-name': 'off',
     '@next/next/no-document-import-in-page': 'off',
+    '@next/next/no-sync-scripts': 'off',
     'no-console': 'warn',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
 
